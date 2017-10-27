@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="blackbelt.com.quiz.Resposta"
+    android:background="@drawable/esferas">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250sp"
+        android:id="@+id/respostaImg"
+        android:layout_marginTop="15sp"
+        android:layout_marginLeft="15sp"
+        android:layout_marginRight="15sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="80sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="150sp"
+        android:id="@+id/resposta"
+        />
+
+
+</LinearLayout>

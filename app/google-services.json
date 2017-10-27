@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "923558309963",
+    "firebase_url": "https://quiz-fe277.firebaseio.com",
+    "project_id": "quiz-fe277",
+    "storage_bucket": "quiz-fe277.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:923558309963:android:c0c0e6203d150487",
+        "android_client_info": {
+          "package_name": "blackbelt.com.quiz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "923558309963-jhvouno7irfulmreqfirreqnep3qb3ca.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "blackbelt.com.quiz",
+            "certificate_hash": "15e6885b13cce5b7c484093311e231f0edb479ef"
+          }
+        },
+        {
+          "client_id": "923558309963-3srvib3ufgu9dde0b5v3hsqrp9dhppne.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-Bxm6N7eVI9fheFV9ujJGleT3br8Lf_Q"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "923558309963-3srvib3ufgu9dde0b5v3hsqrp9dhppne.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fundo"
+    tools:context="blackbelt.com.quiz.Principal">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="145sp"
+        android:layout_marginBottom="20sp"
+        android:background="@drawable/ninjaletra"
+        />
+
+    <ImageView
+        android:id="@+id/start"
+        android:layout_width="200sp"
+        android:layout_height="200sp"
+        android:background="@drawable/logo"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50sp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed"
+        android:textStyle="bold"
+        android:text="BlackBelt ©"
+        android:textSize="40sp"
+        android:layout_below="@+id/start"
+        android:gravity="center"
+        android:layout_marginTop="20sp"
+        android:id="@+id/blackbelt"
+        />
+
+    <ProgressBar
+        android:layout_width="50sp"
+        android:layout_height="50sp"
+        android:layout_below="@id/blackbelt"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="20sp"
+        android:fadingEdge="vertical"
+        />
+
+
+</RelativeLayout>

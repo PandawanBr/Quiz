@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="blackbelt.com.quiz.Ranking"
+    android:background="#E0FFFF">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ranking"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:id="@+id/txtRanking"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="15sp"
+        android:layout_marginRight="20sp"
+        android:layout_marginLeft="20sp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtRanking"
+        android:textSize="2sp"
+        android:background="#008B8B"
+        android:id="@+id/linha"
+        android:layout_marginTop="10sp"
+        android:layout_marginRight="20sp"
+        android:layout_marginLeft="20sp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:id="@+id/txtNome"
+        android:layout_below="@id/linha"
+        android:gravity="right"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10sp"
+        android:layout_marginRight="20sp"
+        android:layout_marginLeft="20sp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100sp"
+        android:layout_marginTop="100sp"
+        android:id="@+id/layoutPontos"
+        android:layout_below="@id/txtNome"
+        android:layout_marginRight="20sp"
+        android:layout_marginLeft="20sp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Acertos:"
+            android:textSize="40sp"
+            android:background="#7FFFD4"
+            android:layout_marginRight="5sp"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="40sp"
+            android:gravity="center"
+            android:background="#DCDCDC"
+            android:layout_marginLeft="5sp"
+            android:id="@+id/txtPontos"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60sp"
+        android:layout_below="@id/layoutPontos"
+        android:layout_marginRight="20sp"
+        android:layout_marginLeft="20sp">
+
+        <Button
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="RESPONDER NOVAMENTE"
+            android:textSize="20sp"
+            android:onClick="comecarQuiz"
+            android:id="@+id/btnNovamente"
+            />
+
+        <Button
+            android:layout_width="0sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="TELA PRINCIPAL"
+            android:textSize="20sp"
+            android:onClick="menu"
+            android:id="@+id/btnPrincipal"/>
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>
